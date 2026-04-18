@@ -1,28 +1,90 @@
-ELECTRO STORE – CONSOLE-BASED SHOPPING CART
+# 🛒 Console-Based Shopping Cart System (C++)
 
-This application is a C++ console-based project simulating a realistic electronic store experience. It involves user authentication, product management, a search feature, and automated receipts generation.
+This is a console-based eCommerce application developed using C++ fundamentals. The project simulates a basic online shopping system where users can register, login, browse products, and make purchases.
 
-FEATURES:
+---
 
-User Authentication: A system of secure login and registration with data stored in a file, users.txt.
-Global Search: This allows for case-insensitive searching to find products across all categories quickly.
-Inventory Management: Real-time stock updates where stock is deducted upon purchase, restored upon checkout cancellation.
-Shopping Cart: Add items, remove items, and view items with the ability to compute subtotals.
-Automated Billing: Creates a receipt.txt with customer details and adds a 20% discount for large purchases.
+## 🚀 Features
 
-Technical Stack:
-Language: C++
-Data Storage: Flat-file data storage; text files
-Libraries: iostream, fstream, iomanip, string, cctype
+* 🔐 User Registration & Login
+* 🛍️ Product Viewing
+* ➕ Add to Cart
+* 💰 Purchase System
+* 🧾 Receipt Generation
+* 🔄 Menu-driven program
 
-FILE STRUCTURE
-main.cpp: Contains the principal logic together with the menu system.
-products.txt: Database of all items, including ID, Model, Price, and Stock.
-users.txt: The registered usernames with their passwords.
-receipt.txt: This file is generated automatically after a checkout.
+---
 
-FUTURE ENHANCEMENTS -
-Introduction of an Admin Panel for console-based product management. 
-Password masking on the login phase.
-Addition of category filtering to search results. 
-Passwords stored in users.txt should be encrypted. 
+## 🧠 Concepts Used
+
+* Functions
+* Conditional Statements (if/else)
+* Loops (while, for)
+* Arrays / Basic Data Structures
+* File Handling (if implemented)
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/hubdarrind/SHOPING-CART-PROJECT-C-.git
+   ```
+
+2. Compile:
+
+   ```bash
+   g++ main.cpp
+   ```
+
+3. Run:
+
+   ```bash
+   ./a.out
+   ```
+
+---
+
+## 📌 Sample Output
+
+```id="sample-output"}
+Welcome to Shopping System
+1. Login
+2. Register
+
+Enter choice: 1
+
+Login Successful!
+
+Available Products:
+1. Shoes - 2000 PKR
+2. Shirt - 1500 PKR
+
+Added to Cart...
+
+Total Bill: 3500 PKR
+Thank you for shopping!
+```
+
+---
+
+## 🎯 Purpose
+
+This project was built to understand how real-world shopping systems work using core programming concepts before moving to Object-Oriented Programming.
+
+---
+
+## 🚀 Future Improvements
+
+* Convert this project into OOP-based structure
+* Add better data handling using classes
+* Build a GUI or web-based version using Flask
+
+---
+
+## 👨‍💻 Author
+
+**Hubdar Ali**
+Computer Science Student – Salim Habib University
